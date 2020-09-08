@@ -1,6 +1,6 @@
 FROM openjdk:8-alpine
 
-ENV VERSION 0.10.11
+ENV VERSION 0.10.10
 
 RUN apk --update add libc6-compat
 
