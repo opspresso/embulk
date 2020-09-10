@@ -1,7 +1,7 @@
-#!/bin/sh
+#!/bin/bash
 
 # Install Embulk Plug ins
-if [ -n "$PLUGINS" ] ; then
+if [ -n "$PLUGINS" ]; then
   /embulk/embulk gem install $PLUGINS
 fi
 
