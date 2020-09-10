@@ -1,12 +1,12 @@
 #!/bin/bash
 
-java -jar /embulk/embulk -version
+/embulk/embulk -version
 
 echo "PLUGINS: $PLUGINS"
 echo "COMMAND: $COMMAND"
 
 if [ -n "$PLUGINS" ]; then
-  java -jar /embulk/embulk gem install $PLUGINS
+  /embulk/embulk gem install $PLUGINS
 fi
 
-java -jar /embulk/embulk $COMMAND
+/embulk/embulk $COMMAND
