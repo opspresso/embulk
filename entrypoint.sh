@@ -1,5 +1,8 @@
 #!/bin/bash
 
+ls -al
+ls -al /embulk
+
 /embulk/embulk -version
 
 echo "PLUGINS: $PLUGINS"
