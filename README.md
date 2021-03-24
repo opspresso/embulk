@@ -12,11 +12,11 @@ docker pull opspresso/embulk
 ## version
 
 ```
-ENV VERSION 0.10.27
+ENV VERSION 0.10.28
 ```
 
 ## latest
 
 ```
-ENV LATEST 0.10.27
+ENV LATEST 0.10.28
 ```
