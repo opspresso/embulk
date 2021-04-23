@@ -1,6 +1,6 @@
 FROM openjdk:8-alpine
 
-ENV VERSION 0.10.31
+ENV VERSION 0.11.0-ALPHA.1
 
 RUN apk --update add libc6-compat bash curl
 
